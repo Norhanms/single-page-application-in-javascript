@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.nav {
+    width: 30%;
+    background-color: blueviolet;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav .nav__link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#app {
+    width: 70%;
+    position: relative;
+    left: 30%;
+    padding-top: 100px;
+}
